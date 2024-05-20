@@ -1,0 +1,13 @@
+hub:
+  serviceType: NodePort
+chromeNode:
+  enabled: false
+edgeNode:
+  enabled: false
+firefoxNode:
+  enabled: true
+global:
+  seleniumGrid:
+    imageRegistry: seleniarm
+    imageTag: 4.20.0-20240427
+    nodesImageTag: 4.20.0-20240427
